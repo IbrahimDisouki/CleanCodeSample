@@ -1,4 +1,4 @@
-package com.example.cleancodesample
+package com.example.cleancodesample.presentation
 
 import android.os.Bundle
 import android.view.Menu
@@ -6,7 +6,7 @@ import android.view.MenuItem
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
 import androidx.navigation.findNavController
-import com.example.cleancodesample.presentation.BaseActivity
+import com.example.cleancodesample.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity(), NavController.OnDestinationChangedListener {
