@@ -10,5 +10,6 @@ versions.material = '1.1.0-alpha04'
 versions.junit = '4.12'
 versions.testRunner = '1.1.2-alpha02'
 versions.espressoCore = '3.2.0-alpha02'
+versions.navigation = '1.0.0'
 
 ext.versions = versions
