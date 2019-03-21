@@ -3,4 +3,5 @@
     <item name="navHostFragment" type="id"/>
     <item name="toolbar" type="id"/>
     <item name="nav_graph" type="id"/>
+    <item name="homeFragment" type="id" />
 </resources>
