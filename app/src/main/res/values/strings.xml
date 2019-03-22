@@ -2,4 +2,6 @@
     <string name="app_name">CleanCodeSample</string>
     <string name="action_settings">Settings</string>
     <string name="home">Home</string>
+    <string name="hello_clean_code">Hello Clean Code!</string>
+    <string name="sign_up">SignUp</string>
 </resources>

@@ -1,7 +1,7 @@
-package com.example.cleancodesample.features.authorization.domain
+package com.example.cleancodesample.features.auth.domain
 
 import com.example.cleancodesample.domain.usecase.UseCase
-import com.example.cleancodesample.features.authorization.domain.LoginUseCase.Params
+import com.example.cleancodesample.features.auth.domain.LoginUseCase.Params
 
 class LoginUseCase(val respoitory: IAuthorizationRepository) : UseCase<Params, Any> {
 
@@ -12,7 +12,7 @@ class LoginUseCase(val respoitory: IAuthorizationRepository) : UseCase<Params, A
     class Params private constructor(val email: String, val password: String) {
         companion object {
             fun create(email: String, password: String) =
-                Params(email, password)
+                    Params(email, password)
         }
     }
 }
