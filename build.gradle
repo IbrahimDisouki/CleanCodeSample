@@ -5,9 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven {
-            url 'https://maven.fabric.io/public'
-        }
+        maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:$versions.buildTools"
@@ -15,7 +13,7 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         classpath "com.google.gms:google-services:$versions.googleServices"
-        classpath "io.fabric.tools:gradle:$versions.fabric"
+        classpath "io.fabric.tools:gradle:$versions.fabricToold"
     }
 }
 
@@ -23,6 +21,7 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://maven.fabric.io/public' }
     }
 }
 
