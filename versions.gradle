@@ -13,5 +13,11 @@ versions.espressoCore = '3.2.0-alpha02'
 versions.navigation = '1.0.0'
 versions.googleServices = '4.2.0'
 versions.firebaseCore = '16.0.8'
+versions.retrofit = '2.5.0'
+versions.rxKotlin = '2.3.0'
+versions.rxAndroid = '2.1.1'
+versions.koin = '2.0.0-rc-1'
+versions.fabric = '1.28.0'
+versions.crashlytics = '2.9.9'
 
 ext.versions = versions

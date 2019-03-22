@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'io.fabric'
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -34,6 +36,16 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espressoCore"
     implementation "android.arch.navigation:navigation-fragment-ktx:$versions.navigation"
     implementation "com.google.firebase:firebase-core:$versions.firebaseCore"
+    implementation "com.crashlytics.sdk.android:crashlytics:$versions.crashlytics"
+    implementation "com.squareup.retrofit2:retrofit:$versions.retrofit"
+    implementation "com.squareup.retrofit2:adapter-rxjava:$versions.retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+    implementation "io.reactivex.rxjava2:rxkotlin:$versions.rxKotlin"
+    implementation "io.reactivex.rxjava2:rxandroid:$versions.rxAndroid"
+    implementation "org.koin:koin-core:$versions.koin"
+    implementation "org.koin:koin-android:$versions.koin"
+    implementation "org.koin:koin-androidx-scope:$versions.koin"
+    implementation "org.koin:koin-androidx-viewmodel:$versions.koin"
 }
 
 apply plugin: 'com.google.gms.google-services'
