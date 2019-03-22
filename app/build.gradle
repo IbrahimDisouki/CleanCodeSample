@@ -33,4 +33,7 @@ dependencies {
     androidTestImplementation "androidx.test:runner:$versions.testRunner"
     androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espressoCore"
     implementation "android.arch.navigation:navigation-fragment-ktx:$versions.navigation"
+    implementation "com.google.firebase:firebase-core:$versions.firebaseCore"
 }
+
+apply plugin: 'com.google.gms.google-services'

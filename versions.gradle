@@ -11,5 +11,7 @@ versions.junit = '4.12'
 versions.testRunner = '1.1.2-alpha02'
 versions.espressoCore = '3.2.0-alpha02'
 versions.navigation = '1.0.0'
+versions.googleServices = '4.2.0'
+versions.firebaseCore = '16.0.8'
 
 ext.versions = versions
