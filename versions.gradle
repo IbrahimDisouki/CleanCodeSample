@@ -19,5 +19,7 @@ versions.rxAndroid = '2.1.1'
 versions.koin = '2.0.0-rc-1'
 versions.fabricToold = '1.28.0'
 versions.crashlytics = '2.9.9@aar'
+versions.coroutines = '1.2.0'
+versions.retrofitCoroutinesAdapter = '0.9.2'
 
 ext.versions = versions
