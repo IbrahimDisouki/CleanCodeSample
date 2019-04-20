@@ -1,4 +1,4 @@
 package com.example.cleancodesample.features.auth.data
 
-class AuthorizationRemoteDataSource {
+class AuthorizationRemoteDataSource : IAuthorizationRemoteDataSource {
 }
